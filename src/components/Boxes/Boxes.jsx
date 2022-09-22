@@ -1,8 +1,11 @@
 import React from 'react'
+import './boxes.css'
 
-function Boxes() {
+function Boxes({title, url}) {
   return (
-    <div>Boxes</div>
+    <div className='content_box'>
+      <p>{title}</p>
+    </div>
   )
 }
 
